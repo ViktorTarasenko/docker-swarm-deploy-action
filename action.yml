@@ -11,6 +11,15 @@ inputs:
   ssh_private_key:
     description: SSH private key to use to connect
     required: false
+  registry_username:
+    description: Registry username to login for deploy
+    required: false
+  registry_password:
+    description: Registry password to login for deploy
+    required: false
+  registry:
+    description: Registry to login for deploy
+    required: false
 runs:
   using: docker
   image: Dockerfile
