@@ -38,6 +38,20 @@ When connecting to Docker over SSH, this must contain the SSH public key of the 
 
 When connecting to Docker over SSH, this must contain the SSH private key to use to connect. Optional.
 
+### `ssh_private_key`
+
+When connecting to Docker over SSH, this must contain the SSH private key to use to connect. Optional.
+
+### registry
+
+Remote docker registry
+
+###  registry_username
+Remote docker registry username
+
+### registry password
+Remote docker registry password
+
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
